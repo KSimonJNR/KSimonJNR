@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <div class="menu-toggle">
+          <i class='bx bx-menu'></i>
+          </div>
+              <!--Navigation links-->
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Bars Animation -->
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="home-info">
+            <h1>Simon Kennedy</h1>
+            <h2>I'm a 
+            <span style="--i:4;" data-text="Frontend developer">Frontend developer</span>
+            <span style="--i:3;" data-text="YouTuber">YouTuber</span>
+            <span style="--i:2;" data-text="Blogger">Blogger</span>
+            <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p>I create responsive, modern, and interactive websites with HTML, CSS, and JavaScript.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Hire Me</a>
+                <div class="sci">
+                    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Image -->
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="IMG/profile.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS for Mobile Menu -->
+    <script src="script.js"></script>
+</body>
+</html>
